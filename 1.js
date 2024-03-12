@@ -1,5 +1,6 @@
 console.log('Hello World');
 
+// This program adds three numbers
 function addThreeNumbers(a, b, c){
     return a + b + c;
 }
