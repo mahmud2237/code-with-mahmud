@@ -14,6 +14,19 @@ const a1 = {
 }
 a = 56;  // so we can't change it to hold a number or whatever we want to change it later. It's not possible.
 
-// Chapter 1 -> Question 4 => Try to add a new key to the const object in problem 3 were you able to do it? if yes, than print then print the const.
+// Chapter 1 -> Question 4 => Try to add a new key to the const object in problem 3 were you able to do it? if yes, then print the const.
 a1['friend'] = "Maruf";
+a1['name'] = "Noyon";
 console.log(a1);
+
+// Chapter 1 -> Question 5 => Write a JS program to create a word meaning dictionary of 6 words.
+const dict = {
+    appreciate: "recognizes the full worth of...",
+    aver: "To assert or affirm with confidence",
+    telluric: "Proceeding from the earth or soil.",
+    cordial: "To express gratitude or thanks.",
+    fantastic: "Excellent or outstanding.",
+    yakka: "Work, especially hard work"
+}
+console.log(dict.aver)
+console.log(dict.yakka)
