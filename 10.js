@@ -16,6 +16,7 @@ while(i<n){
 /**
  * Do While Loops in JS
  * first run the do block than check the while condition
+ * It's run at least one time coz for the do block
 */
 
 console.log("----------Below this code is for Do while loop-------------")
