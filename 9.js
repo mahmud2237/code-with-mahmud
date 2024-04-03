@@ -15,4 +15,11 @@ for (let i = 0; i < n; i++){
 console.log("Sum of first " + n + " natural number is " + sum)
 
 
-
+let obj = {
+    happy: 45,
+    sad: 67,
+    angry: 89
+}
+for (let a in obj){
+    console.log("Marks of " + a + " are " + obj[a])
+}
